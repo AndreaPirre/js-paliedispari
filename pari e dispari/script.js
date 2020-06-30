@@ -1,9 +1,9 @@
 // 2__Gioco Pari e dispari:
 // L’utente sceglie pari o dispari e un numero da 1 a 5.
-// Generiamo un numero random (sempre da 1
+// Genero un numero random (sempre da 1
 // a 5) per il computer.
 // Sommiamo i due numeri e dichiariamo chi ha
-// vinto (controlliamo se la somma da pari o dispari).
+// vinto (controllo se la somma è pari o dispari).
 
 var parioDispari = prompt("Scegli e scrivi o pari o dispari");
 var numerogiocatore = parseInt(prompt("scrivi un numero da 1 a 5"));

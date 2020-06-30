@@ -1,7 +1,7 @@
 // 1__Scrivi una funzione per capire se la parola è palindroma
 
 var parolaUtente = prompt("Inserisci una parola: ");
-var parolaGirata = roveciaParola(parolaUtente);
+var parolaGirata = rovesciaParola(parolaUtente);
 
 if (parolaUtente == parolaGirata) {
  console.log("La parola è palindroma");
@@ -10,7 +10,7 @@ if (parolaUtente == parolaGirata) {
 else {
   console.log("La parola non è palindroma");
 }
-function roveciaParola(parola) {
+function rovesciaParola(parola) {
  var parolaRovesciata = "";
  for (var i = parola.length -1; i >= 0; i--) {
    parolaRovesciata += parola[i]
